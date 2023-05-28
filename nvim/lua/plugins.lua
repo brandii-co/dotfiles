@@ -19,6 +19,7 @@ local plugins = {
   'nvim-treesitter/nvim-treesitter',
   'nvim-lualine/lualine.nvim',
   'neovim/nvim-lspconfig',
+  'numToStr/Comment.nvim',
   {
     "williamboman/mason.nvim",
     build = ":MasonUpdate"

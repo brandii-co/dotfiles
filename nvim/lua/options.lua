@@ -10,7 +10,8 @@ vim.g.maplocalleader = ' '
 vim.opt.title = true -- set the title of window to the value of the titlestring
 vim.opt.titlestring = "%<%F%=%l/%L - nvim" -- what the title of the window will be set to
 
-vim.opt.number = true
+-- vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.numberwidth = 3 -- set number column width to 2 {default 4}
